@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this xml file is needed for log4j2 library -->
+<Configuration status="DEBUG">
+    <!-- Appender (message writer types) are types of logging -->
+    <!-- They are print out in console appender -->
+    <!-- You can choose to write all of the lohs to a file -->
+    <Appenders>
+        <!-- if you want your logs to go to console appender-->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+        </Console>
+    </Appenders>
+    <!-- Define loggers-->
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>

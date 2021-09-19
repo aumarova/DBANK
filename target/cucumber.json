@@ -1,0 +1,1358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6448930125,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2322533708,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs in with following credentials",
+            "match": {
+              "location": "SignInSteps.user_logs_in_with_following_credentials(LoginDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "qa6@gmail.com",
+                  "Passwordvalid45"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29696791,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should successfully be logged in to home page",
+            "match": {
+              "location": "SignInSteps.user_should_successfully_be_logged_in_to_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "As a user, I want to be able to view all details of my account home page",
+        "description": "",
+        "id": "as-a-customer,-i-want-to-add/edit/manage-bank-account-payment-profile;as-a-user,-i-want-to-be-able-to-view-all-details-of-my-account-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1698270750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150677250,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify that \"Welcome QA\" welcoming message is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome QA",
+                  "offset": 13
+                }
+              ],
+              "location": "CheckingSteps.verify_that_welcoming_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 517843792,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify that home page panel with account info is displayed",
+            "match": {
+              "location": "CheckingSteps.verify_that_home_page_panel_with_account_info_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a Customer, I want to add/edit/manage Bank Account Payment Profile",
+    "description": "",
+    "id": "as-a-customer,-i-want-to-add/edit/manage-bank-account-payment-profile",
+    "keyword": "Feature",
+    "uri": "features/CheckingAccount.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4286874500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "As a user, I want to successfully login with valid credentials",
+        "description": "",
+        "id": "digital-bank-login;as-a-user,-i-want-to-successfully-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1390659666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2165384167,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User logs in with following credentials",
+            "match": {
+              "location": "SignInSteps.user_logs_in_with_following_credentials(LoginDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "qa6@gmail.com",
+                  "Passwordvalid45"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38902750,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should successfully be logged in to home page",
+            "match": {
+              "location": "SignInSteps.user_should_successfully_be_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Digital Bank Login",
+    "description": "",
+    "id": "digital-bank-login",
+    "keyword": "Feature",
+    "uri": "features/SignIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3954303208,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13413375,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1929637750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30525542,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Submitting deposit without account",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-deposit-without-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1131190041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 865527083,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates to Deposit page",
+            "match": {
+              "location": "TransactionsSteps.user_navigates_to_Deposit_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442894000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User submits a deposit with the following info",
+            "match": {
+              "location": "TransactionsSteps.userSubmitsADepositWithTheFollowingInfo(DepositDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "---------- Select Account -----------",
+                  "112"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35091416,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify field error message \"Please select an item in the list.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please select an item in the list.",
+                  "offset": 28
+                }
+              ],
+              "location": "CheckingSteps.verify_field_error_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3739910125,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11734166,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2304983708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35151667,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Submitting deposit without deposit",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-deposit-without-deposit",
+        "after": [
+          {
+            "result": {
+              "duration": 1049772083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 981148750,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User navigates to Deposit page",
+            "match": {
+              "location": "TransactionsSteps.user_navigates_to_Deposit_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 516422541,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User submits a deposit with the following info",
+            "match": {
+              "location": "TransactionsSteps.userSubmitsADepositWithTheFollowingInfo(DepositDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "ABC (Standard Checking)",
+                  ""
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54246042,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify field error message \"Please fill out this field.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 28
+                }
+              ],
+              "location": "CheckingSteps.verify_field_error_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3626907458,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6547291,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2012129292,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29979125,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Submitting deposit with zero deposit amount",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-deposit-with-zero-deposit-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 1592593417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435464000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User navigates to Deposit page",
+            "match": {
+              "location": "TransactionsSteps.user_navigates_to_Deposit_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2154646417,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User submits a deposit with the following info",
+            "match": {
+              "location": "TransactionsSteps.userSubmitsADepositWithTheFollowingInfo(DepositDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "ABC (Standard Checking)",
+                  "0"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43758833,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Verify alert error message \"Error The deposit amount ($0.00) must be greater than $0.00\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Error The deposit amount ($0.00) must be greater than $0.00",
+                  "offset": 28
+                }
+              ],
+              "location": "TransactionsSteps.verifyAlertErrorMessageIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3746170083,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9941041,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2406198708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31029167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Submitting withdraw without account",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-withdraw-without-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1269560708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1514016875,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User navigates to Withdraw page",
+            "match": {
+              "location": "WithdrawSteps.userNavigatesToWithdrawPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259756916,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User User submits a withdraw with following information",
+            "match": {
+              "location": "WithdrawSteps.userUserSubmitsAWithdrawWithFollowingInformation(WithdrawDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 45
+              },
+              {
+                "cells": [
+                  "---------- Select Account -----------",
+                  "500"
+                ],
+                "line": 46
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23245708,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Verify field error message \"Please select an item in the list.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please select an item in the list.",
+                  "offset": 28
+                }
+              ],
+              "location": "CheckingSteps.verify_field_error_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3616546667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3668416,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084443250,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34173375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 49,
+        "name": "Submitting withdraw without deposit",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-withdraw-without-deposit",
+        "after": [
+          {
+            "result": {
+              "duration": 1239695666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003117542,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User navigates to Withdraw page",
+            "match": {
+              "location": "WithdrawSteps.userNavigatesToWithdrawPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435891916,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User User submits a withdraw with following information",
+            "match": {
+              "location": "WithdrawSteps.userUserSubmitsAWithdrawWithFollowingInformation(WithdrawDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 52
+              },
+              {
+                "cells": [
+                  "ABC (Standard Checking)",
+                  ""
+                ],
+                "line": 53
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32126625,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Verify field error message \"Please fill out this field.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 28
+                }
+              ],
+              "location": "CheckingSteps.verify_field_error_message_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3648700250,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2862792,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1825677334,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23645333,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Submitting withdraw with zero deposit amount",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-withdraw-with-zero-deposit-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 1131850500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 973114167,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User navigates to Withdraw page",
+            "match": {
+              "location": "WithdrawSteps.userNavigatesToWithdrawPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1384127417,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User User submits a withdraw with following information",
+            "match": {
+              "location": "WithdrawSteps.userUserSubmitsAWithdrawWithFollowingInformation(WithdrawDataContainer\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "account",
+                  "amount"
+                ],
+                "line": 59
+              },
+              {
+                "cells": [
+                  "ABC (Standard Checking)",
+                  "0"
+                ],
+                "line": 60
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39712666,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Verify alert error message \"Error The withdraw amount ($0.00) must be greater than $0.00\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Error The withdraw amount ($0.00) must be greater than $0.00",
+                  "offset": 28
+                }
+              ],
+              "location": "TransactionsSteps.verifyAlertErrorMessageIsDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 55,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User should successfully be logged in to home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3612895209,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Digital Bank login page",
+            "match": {
+              "location": "SignInSteps.user_navigates_to_Digital_Bank_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4589375,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that web title is \"Digital Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Bank",
+                  "offset": 26
+                }
+              ],
+              "location": "TransactionsSteps.verify_that_web_title_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1854733584,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with \"qa6@gmail.com\" and \"Passwordvalid45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qa6@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Passwordvalid45",
+                  "offset": 39
+                }
+              ],
+              "location": "TransactionsSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25670792,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully logged in to home page",
+            "match": {
+              "location": "TransactionsSteps.user_successfully_logged_in_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "Submitting valid withdraw",
+        "description": "",
+        "id": "digital-bank-transactions;submitting-valid-withdraw",
+        "after": [
+          {
+            "result": {
+              "duration": 1209846875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 802056375,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User navigates to Withdraw page",
+            "match": {
+              "location": "WithdrawSteps.userNavigatesToWithdrawPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116351750,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "User selects withdraw account as \"Money Market (Standard Checking)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Money Market (Standard Checking)",
+                  "offset": 34
+                }
+              ],
+              "location": "WithdrawSteps.userSelectsWithdrawAccountAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1293613375,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User submits a withdraw with \"20\" amount",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 30
+                }
+              ],
+              "location": "WithdrawSteps.userSubmitsAWithdrawWithAmount(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423792,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verify that withdraw amount has been applied",
+            "match": {
+              "location": "WithdrawSteps.verifyThatWithdrawAmountHasBeenApplied()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 62,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Digital Bank Transactions",
+    "description": "",
+    "id": "digital-bank-transactions",
+    "keyword": "Feature",
+    "uri": "features/Transactions.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
