@@ -65,3 +65,5 @@ Feature: Digital Bank Transactions
     And User selects withdraw account as "Money Market (Standard Checking)"
     When User submits a withdraw with "20" amount
     Then Verify that withdraw amount has been applied
+
+  
